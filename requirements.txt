@@ -1,0 +1,24 @@
+# Core Databricks + agent stack
+# Pin to compatible ranges; on Databricks Runtime ML many of these are preinstalled.
+databricks-sdk>=0.40.0
+databricks-agents>=1.0.0          # Mosaic AI Agent Framework (register + deploy)
+databricks-mcp>=0.2.0             # DatabricksMCPClient for managed + custom MCP servers
+mlflow>=3.1.0                     # MLflow 3: tracing, ResponsesAgent, evaluation
+
+# Agent authoring (any framework works; this repo uses the OpenAI Agents SDK style
+# via the OpenAI-compatible Databricks endpoint + a light manual tool loop)
+openai>=1.60.0
+unitycatalog-ai>=0.3.0            # UCFunctionToolkit (optional, for local tool testing)
+unitycatalog-openai>=0.2.0
+
+# Custom MCP server (approach used in mcp/mcp_server.py)
+mcp>=1.2.0                        # Model Context Protocol Python SDK (FastMCP)
+httpx>=0.27.0
+
+# Synthetic data generation
+faker>=30.0.0
+pandas>=2.0.0
+
+# Note: pyspark is provided by the Databricks Runtime — do NOT pip install it in a
+# Databricks notebook. It's listed here only for local, non-Databricks experimentation.
+# pyspark>=3.5.0

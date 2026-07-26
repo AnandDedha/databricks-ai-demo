@@ -1,0 +1,501 @@
+ticket_id,customer_id,issue_type,issue_description,ticket_status,created_timestamp
+TKT000001,CUST000021,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-29 08:15:48.090086
+TKT000002,CUST000299,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-07-18 08:15:48.090086
+TKT000003,CUST000324,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-22 08:15:48.090086
+TKT000004,CUST000271,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-07-03 08:15:48.090086
+TKT000005,CUST000185,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-07-07 08:15:48.090086
+TKT000006,CUST000222,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-04-04 08:15:48.090086
+TKT000007,CUST000079,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-07-09 08:15:48.090086
+TKT000008,CUST000447,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-10 08:15:48.090086
+TKT000009,CUST000425,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-02-20 08:15:48.090086
+TKT000010,CUST000034,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-23 08:15:48.090086
+TKT000011,CUST000272,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-27 08:15:48.090086
+TKT000012,CUST000034,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-05-01 08:15:48.090086
+TKT000013,CUST000345,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-05-10 08:15:48.090086
+TKT000014,CUST000265,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-06 08:15:48.090086
+TKT000015,CUST000481,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-04-05 08:15:48.090086
+TKT000016,CUST000390,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-16 08:15:48.090086
+TKT000017,CUST000194,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-19 08:15:48.090086
+TKT000018,CUST000068,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,OPEN,2026-07-13 08:15:48.090086
+TKT000019,CUST000194,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-02-19 08:15:48.090086
+TKT000020,CUST000030,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-04-18 08:15:48.090086
+TKT000021,CUST000285,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-02-19 08:15:48.090086
+TKT000022,CUST000140,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-03-14 08:15:48.090086
+TKT000023,CUST000364,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-04-06 08:15:48.090086
+TKT000024,CUST000435,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-02-22 08:15:48.090086
+TKT000025,CUST000009,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-06-13 08:15:48.090086
+TKT000026,CUST000337,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-04-16 08:15:48.090086
+TKT000027,CUST000389,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-04-23 08:15:48.090086
+TKT000028,CUST000210,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-07-12 08:15:48.090086
+TKT000029,CUST000363,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-04-18 08:15:48.090086
+TKT000030,CUST000477,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-28 08:15:48.090086
+TKT000031,CUST000170,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-23 08:15:48.090086
+TKT000032,CUST000252,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-18 08:15:48.090086
+TKT000033,CUST000247,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-13 08:15:48.090086
+TKT000034,CUST000480,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-24 08:15:48.090086
+TKT000035,CUST000404,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-02-23 08:15:48.090086
+TKT000036,CUST000097,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-03-16 08:15:48.090086
+TKT000037,CUST000143,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-17 08:15:48.090086
+TKT000038,CUST000454,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-05-11 08:15:48.090086
+TKT000039,CUST000180,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-04-28 08:15:48.090086
+TKT000040,CUST000352,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-02-15 08:15:48.090086
+TKT000041,CUST000491,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-07-03 08:15:48.090086
+TKT000042,CUST000012,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-05-31 08:15:48.090086
+TKT000043,CUST000447,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-05-27 08:15:48.090086
+TKT000044,CUST000097,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-04-18 08:15:48.090086
+TKT000045,CUST000203,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-05-04 08:15:48.090086
+TKT000046,CUST000447,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-07-08 08:15:48.090086
+TKT000047,CUST000087,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-02-01 08:15:48.090086
+TKT000048,CUST000387,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-28 08:15:48.090086
+TKT000049,CUST000033,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-01 08:15:48.090086
+TKT000050,CUST000019,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-03-11 08:15:48.090086
+TKT000051,CUST000480,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-03-17 08:15:48.090086
+TKT000052,CUST000153,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-05-14 08:15:48.090086
+TKT000053,CUST000200,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-06-18 08:15:48.090086
+TKT000054,CUST000091,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-02-22 08:15:48.090086
+TKT000055,CUST000098,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-05-07 08:15:48.090086
+TKT000056,CUST000298,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-02-06 08:15:48.090086
+TKT000057,CUST000208,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-04-22 08:15:48.090086
+TKT000058,CUST000419,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-05 08:15:48.090086
+TKT000059,CUST000407,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-09 08:15:48.090086
+TKT000060,CUST000375,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-17 08:15:48.090086
+TKT000061,CUST000442,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-11 08:15:48.090086
+TKT000062,CUST000385,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-12 08:15:48.090086
+TKT000063,CUST000127,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-04-08 08:15:48.090086
+TKT000064,CUST000467,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-05-16 08:15:48.090086
+TKT000065,CUST000289,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-04-02 08:15:48.090086
+TKT000066,CUST000055,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-27 08:15:48.090086
+TKT000067,CUST000119,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-27 08:15:48.090086
+TKT000068,CUST000492,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-03-15 08:15:48.090086
+TKT000069,CUST000446,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-04-25 08:15:48.090086
+TKT000070,CUST000486,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-15 08:15:48.090086
+TKT000071,CUST000287,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-02 08:15:48.090086
+TKT000072,CUST000294,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-01-30 08:15:48.090086
+TKT000073,CUST000165,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-14 08:15:48.090086
+TKT000074,CUST000390,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-06-17 08:15:48.090086
+TKT000075,CUST000250,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-07-20 08:15:48.090086
+TKT000076,CUST000016,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-07-20 08:15:48.090086
+TKT000077,CUST000392,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-06-11 08:15:48.090086
+TKT000078,CUST000302,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-06-15 08:15:48.090086
+TKT000079,CUST000215,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-05-10 08:15:48.090086
+TKT000080,CUST000458,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-06-29 08:15:48.090086
+TKT000081,CUST000387,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-25 08:15:48.090086
+TKT000082,CUST000494,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-05-12 08:15:48.090086
+TKT000083,CUST000211,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-06-23 08:15:48.090086
+TKT000084,CUST000116,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-06-02 08:15:48.090086
+TKT000085,CUST000190,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,OPEN,2026-06-27 08:15:48.090086
+TKT000086,CUST000065,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-01-29 08:15:48.090086
+TKT000087,CUST000339,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-07-17 08:15:48.090086
+TKT000088,CUST000335,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-02-21 08:15:48.090086
+TKT000089,CUST000264,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-01-30 08:15:48.090086
+TKT000090,CUST000119,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-05-29 08:15:48.090086
+TKT000091,CUST000241,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-07-13 08:15:48.090086
+TKT000092,CUST000315,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-07-12 08:15:48.090086
+TKT000093,CUST000109,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-07 08:15:48.090086
+TKT000094,CUST000482,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-07-16 08:15:48.090086
+TKT000095,CUST000269,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-03-20 08:15:48.090086
+TKT000096,CUST000332,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-12 08:15:48.090086
+TKT000097,CUST000312,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-04-27 08:15:48.090086
+TKT000098,CUST000202,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-09 08:15:48.090086
+TKT000099,CUST000314,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-06-21 08:15:48.090086
+TKT000100,CUST000154,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-07-06 08:15:48.090086
+TKT000101,CUST000175,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-06-06 08:15:48.090086
+TKT000102,CUST000051,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-05-04 08:15:48.090086
+TKT000103,CUST000426,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-19 08:15:48.090086
+TKT000104,CUST000178,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-03-18 08:15:48.090086
+TKT000105,CUST000025,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-19 08:15:48.090086
+TKT000106,CUST000409,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-04-19 08:15:48.090086
+TKT000107,CUST000256,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-03-30 08:15:48.090086
+TKT000108,CUST000241,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-06-24 08:15:48.090086
+TKT000109,CUST000166,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-07-18 08:15:48.090086
+TKT000110,CUST000030,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-07-06 08:15:48.090086
+TKT000111,CUST000259,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-04-29 08:15:48.090086
+TKT000112,CUST000119,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-04-27 08:15:48.090086
+TKT000113,CUST000480,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-05-26 08:15:48.090086
+TKT000114,CUST000149,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-21 08:15:48.090086
+TKT000115,CUST000099,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-24 08:15:48.090086
+TKT000116,CUST000143,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-05-05 08:15:48.090086
+TKT000117,CUST000209,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-07-02 08:15:48.090086
+TKT000118,CUST000192,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-03 08:15:48.090086
+TKT000119,CUST000404,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-07-23 08:15:48.090086
+TKT000120,CUST000195,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-25 08:15:48.090086
+TKT000121,CUST000075,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-04-04 08:15:48.090086
+TKT000122,CUST000488,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-14 08:15:48.090086
+TKT000123,CUST000034,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-06-06 08:15:48.090086
+TKT000124,CUST000235,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-03-27 08:15:48.090086
+TKT000125,CUST000362,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-06-29 08:15:48.090086
+TKT000126,CUST000194,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-06-21 08:15:48.090086
+TKT000127,CUST000407,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-03-26 08:15:48.090086
+TKT000128,CUST000049,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-06-06 08:15:48.090086
+TKT000129,CUST000165,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-07-08 08:15:48.090086
+TKT000130,CUST000493,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-07-16 08:15:48.090086
+TKT000131,CUST000273,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-01 08:15:48.090086
+TKT000132,CUST000198,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-02-10 08:15:48.090086
+TKT000133,CUST000455,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-07-21 08:15:48.090086
+TKT000134,CUST000040,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-04-15 08:15:48.090086
+TKT000135,CUST000409,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-01-29 08:15:48.090086
+TKT000136,CUST000153,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-04-17 08:15:48.090086
+TKT000137,CUST000289,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-05-30 08:15:48.090086
+TKT000138,CUST000067,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-04-14 08:15:48.090086
+TKT000139,CUST000079,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-02-10 08:15:48.090086
+TKT000140,CUST000138,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-06-26 08:15:48.090086
+TKT000141,CUST000272,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-07-14 08:15:48.090086
+TKT000142,CUST000127,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-28 08:15:48.090086
+TKT000143,CUST000136,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-04-24 08:15:48.090086
+TKT000144,CUST000037,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-04-13 08:15:48.090086
+TKT000145,CUST000114,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-04 08:15:48.090086
+TKT000146,CUST000147,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-03-20 08:15:48.090086
+TKT000147,CUST000455,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-02-18 08:15:48.090086
+TKT000148,CUST000479,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-07-24 08:15:48.090086
+TKT000149,CUST000489,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-09 08:15:48.090086
+TKT000150,CUST000069,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-29 08:15:48.090086
+TKT000151,CUST000315,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-04-28 08:15:48.090086
+TKT000152,CUST000109,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-28 08:15:48.090086
+TKT000153,CUST000493,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-06-17 08:15:48.090086
+TKT000154,CUST000094,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-01-29 08:15:48.090086
+TKT000155,CUST000149,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,OPEN,2026-04-27 08:15:48.090086
+TKT000156,CUST000369,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-23 08:15:48.090086
+TKT000157,CUST000133,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-03-21 08:15:48.090086
+TKT000158,CUST000206,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-05-25 08:15:48.090086
+TKT000159,CUST000075,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-07-19 08:15:48.090086
+TKT000160,CUST000119,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-11 08:15:48.090086
+TKT000161,CUST000257,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-06-15 08:15:48.090086
+TKT000162,CUST000345,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-03 08:15:48.090086
+TKT000163,CUST000075,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-05-28 08:15:48.090086
+TKT000164,CUST000245,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-05-31 08:15:48.090086
+TKT000165,CUST000403,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-29 08:15:48.090086
+TKT000166,CUST000105,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-06-02 08:15:48.090086
+TKT000167,CUST000348,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-02-13 08:15:48.090086
+TKT000168,CUST000244,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-18 08:15:48.090086
+TKT000169,CUST000069,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-03-22 08:15:48.090086
+TKT000170,CUST000204,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-12 08:15:48.090086
+TKT000171,CUST000151,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-06-20 08:15:48.090086
+TKT000172,CUST000252,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-07-25 08:15:48.090086
+TKT000173,CUST000086,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-03-07 08:15:48.090086
+TKT000174,CUST000414,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-02 08:15:48.090086
+TKT000175,CUST000165,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-06-23 08:15:48.090086
+TKT000176,CUST000292,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-05-03 08:15:48.090086
+TKT000177,CUST000270,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-05-21 08:15:48.090086
+TKT000178,CUST000121,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-14 08:15:48.090086
+TKT000179,CUST000436,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-06-19 08:15:48.090086
+TKT000180,CUST000174,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-06-01 08:15:48.090086
+TKT000181,CUST000343,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-04-04 08:15:48.090086
+TKT000182,CUST000316,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-03-02 08:15:48.090086
+TKT000183,CUST000201,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-02-13 08:15:48.090086
+TKT000184,CUST000028,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-07-03 08:15:48.090086
+TKT000185,CUST000216,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-04-21 08:15:48.090086
+TKT000186,CUST000186,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-03-04 08:15:48.090086
+TKT000187,CUST000093,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-08 08:15:48.090086
+TKT000188,CUST000146,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-05-22 08:15:48.090086
+TKT000189,CUST000347,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-04-28 08:15:48.090086
+TKT000190,CUST000145,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-07-12 08:15:48.090086
+TKT000191,CUST000241,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-06-28 08:15:48.090086
+TKT000192,CUST000298,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-05-11 08:15:48.090086
+TKT000193,CUST000409,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-21 08:15:48.090086
+TKT000194,CUST000100,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-06-15 08:15:48.090086
+TKT000195,CUST000024,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-21 08:15:48.090086
+TKT000196,CUST000402,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-02-11 08:15:48.090086
+TKT000197,CUST000048,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-03-13 08:15:48.090086
+TKT000198,CUST000150,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-03-10 08:15:48.090086
+TKT000199,CUST000318,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-07-23 08:15:48.090086
+TKT000200,CUST000286,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-05-17 08:15:48.090086
+TKT000201,CUST000163,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-06-13 08:15:48.090086
+TKT000202,CUST000222,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-07-22 08:15:48.090086
+TKT000203,CUST000006,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-04-06 08:15:48.090086
+TKT000204,CUST000365,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-05-28 08:15:48.090086
+TKT000205,CUST000169,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-07-05 08:15:48.090086
+TKT000206,CUST000045,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-20 08:15:48.090086
+TKT000207,CUST000268,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-05 08:15:48.090086
+TKT000208,CUST000296,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-07-13 08:15:48.090086
+TKT000209,CUST000063,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-11 08:15:48.090086
+TKT000210,CUST000175,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-02-06 08:15:48.090086
+TKT000211,CUST000257,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-07-25 08:15:48.090086
+TKT000212,CUST000400,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-05-24 08:15:48.090086
+TKT000213,CUST000489,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-02-21 08:15:48.090086
+TKT000214,CUST000298,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-09 08:15:48.090086
+TKT000215,CUST000458,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-04-27 08:15:48.090086
+TKT000216,CUST000160,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-02-28 08:15:48.090086
+TKT000217,CUST000326,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-03-31 08:15:48.090086
+TKT000218,CUST000043,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-06-04 08:15:48.090086
+TKT000219,CUST000071,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-01 08:15:48.090086
+TKT000220,CUST000070,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-05-15 08:15:48.090086
+TKT000221,CUST000455,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-04-28 08:15:48.090086
+TKT000222,CUST000009,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-07-22 08:15:48.090086
+TKT000223,CUST000465,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-06 08:15:48.090086
+TKT000224,CUST000073,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-26 08:15:48.090086
+TKT000225,CUST000455,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-04-06 08:15:48.090086
+TKT000226,CUST000354,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-04-30 08:15:48.090086
+TKT000227,CUST000448,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-07-08 08:15:48.090086
+TKT000228,CUST000325,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-05-18 08:15:48.090086
+TKT000229,CUST000350,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,OPEN,2026-02-10 08:15:48.090086
+TKT000230,CUST000338,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-04-24 08:15:48.090086
+TKT000231,CUST000252,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-06-11 08:15:48.090086
+TKT000232,CUST000460,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-06-13 08:15:48.090086
+TKT000233,CUST000034,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-02-03 08:15:48.090086
+TKT000234,CUST000052,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-04-27 08:15:48.090086
+TKT000235,CUST000108,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-05-28 08:15:48.090086
+TKT000236,CUST000167,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-22 08:15:48.090086
+TKT000237,CUST000071,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-04-18 08:15:48.090086
+TKT000238,CUST000193,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-24 08:15:48.090086
+TKT000239,CUST000389,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-03-25 08:15:48.090086
+TKT000240,CUST000476,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-03-27 08:15:48.090086
+TKT000241,CUST000174,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-03-09 08:15:48.090086
+TKT000242,CUST000302,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-24 08:15:48.090086
+TKT000243,CUST000126,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-04-01 08:15:48.090086
+TKT000244,CUST000280,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-04-16 08:15:48.090086
+TKT000245,CUST000225,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-11 08:15:48.090086
+TKT000246,CUST000313,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-07-04 08:15:48.090086
+TKT000247,CUST000269,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-06 08:15:48.090086
+TKT000248,CUST000073,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-06-27 08:15:48.090086
+TKT000249,CUST000032,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-07-08 08:15:48.090086
+TKT000250,CUST000403,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-04-16 08:15:48.090086
+TKT000251,CUST000077,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-03-20 08:15:48.090086
+TKT000252,CUST000492,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-04-18 08:15:48.090086
+TKT000253,CUST000323,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-11 08:15:48.090086
+TKT000254,CUST000104,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-07-20 08:15:48.090086
+TKT000255,CUST000013,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-29 08:15:48.090086
+TKT000256,CUST000197,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-07-21 08:15:48.090086
+TKT000257,CUST000133,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-02-01 08:15:48.090086
+TKT000258,CUST000236,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-05-20 08:15:48.090086
+TKT000259,CUST000342,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-07-10 08:15:48.090086
+TKT000260,CUST000380,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-05-24 08:15:48.090086
+TKT000261,CUST000195,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-02-24 08:15:48.090086
+TKT000262,CUST000194,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-03-22 08:15:48.090086
+TKT000263,CUST000401,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-07-09 08:15:48.090086
+TKT000264,CUST000169,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-16 08:15:48.090086
+TKT000265,CUST000426,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-07 08:15:48.090086
+TKT000266,CUST000460,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-07-18 08:15:48.090086
+TKT000267,CUST000081,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-03-14 08:15:48.090086
+TKT000268,CUST000475,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-03-05 08:15:48.090086
+TKT000269,CUST000380,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-03-30 08:15:48.090086
+TKT000270,CUST000121,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-05-04 08:15:48.090086
+TKT000271,CUST000221,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-02-24 08:15:48.090086
+TKT000272,CUST000035,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-05-15 08:15:48.090086
+TKT000273,CUST000103,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-04-10 08:15:48.090086
+TKT000274,CUST000425,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-03-31 08:15:48.090086
+TKT000275,CUST000204,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-05-25 08:15:48.090086
+TKT000276,CUST000072,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-02-09 08:15:48.090086
+TKT000277,CUST000239,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-07-23 08:15:48.090086
+TKT000278,CUST000218,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-24 08:15:48.090086
+TKT000279,CUST000072,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-10 08:15:48.090086
+TKT000280,CUST000004,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-06-17 08:15:48.090086
+TKT000281,CUST000121,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-04 08:15:48.090086
+TKT000282,CUST000208,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-05-28 08:15:48.090086
+TKT000283,CUST000053,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-07-26 08:15:48.090086
+TKT000284,CUST000256,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-02-16 08:15:48.090086
+TKT000285,CUST000095,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-05-02 08:15:48.090086
+TKT000286,CUST000433,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-31 08:15:48.090086
+TKT000287,CUST000158,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-07-21 08:15:48.090086
+TKT000288,CUST000309,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-05-07 08:15:48.090086
+TKT000289,CUST000449,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-04 08:15:48.090086
+TKT000290,CUST000026,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,OPEN,2026-05-09 08:15:48.090086
+TKT000291,CUST000302,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-03-14 08:15:48.090086
+TKT000292,CUST000035,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-04-27 08:15:48.090086
+TKT000293,CUST000356,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-04-12 08:15:48.090086
+TKT000294,CUST000454,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-05-03 08:15:48.090086
+TKT000295,CUST000358,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-07-15 08:15:48.090086
+TKT000296,CUST000277,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-03-13 08:15:48.090086
+TKT000297,CUST000483,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-06 08:15:48.090086
+TKT000298,CUST000129,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-21 08:15:48.090086
+TKT000299,CUST000306,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-13 08:15:48.090086
+TKT000300,CUST000293,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-27 08:15:48.090086
+TKT000301,CUST000451,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-04-19 08:15:48.090086
+TKT000302,CUST000139,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-07-08 08:15:48.090086
+TKT000303,CUST000273,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-07-18 08:15:48.090086
+TKT000304,CUST000071,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-26 08:15:48.090086
+TKT000305,CUST000236,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-27 08:15:48.090086
+TKT000306,CUST000359,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-05-02 08:15:48.090086
+TKT000307,CUST000275,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-05-19 08:15:48.090086
+TKT000308,CUST000437,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-30 08:15:48.090086
+TKT000309,CUST000022,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-01 08:15:48.090086
+TKT000310,CUST000204,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-04-26 08:15:48.090086
+TKT000311,CUST000186,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-04-09 08:15:48.090086
+TKT000312,CUST000178,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-02-19 08:15:48.090086
+TKT000313,CUST000006,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-28 08:15:48.090086
+TKT000314,CUST000059,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-04-26 08:15:48.090086
+TKT000315,CUST000082,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-03-17 08:15:48.090086
+TKT000316,CUST000008,DISPUTE,Customer disputes a duplicate charge from Flipkart. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-04-25 08:15:48.090086
+TKT000317,CUST000346,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-04-30 08:15:48.090086
+TKT000318,CUST000070,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-03-17 08:15:48.090086
+TKT000319,CUST000153,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-11 08:15:48.090086
+TKT000320,CUST000039,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-01-30 08:15:48.090086
+TKT000321,CUST000062,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-04-02 08:15:48.090086
+TKT000322,CUST000105,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-04-17 08:15:48.090086
+TKT000323,CUST000015,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,OPEN,2026-07-20 08:15:48.090086
+TKT000324,CUST000364,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-02-16 08:15:48.090086
+TKT000325,CUST000019,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-11 08:15:48.090086
+TKT000326,CUST000111,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,OPEN,2026-03-26 08:15:48.090086
+TKT000327,CUST000322,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,OPEN,2026-03-04 08:15:48.090086
+TKT000328,CUST000076,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-05-31 08:15:48.090086
+TKT000329,CUST000022,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-05-07 08:15:48.090086
+TKT000330,CUST000088,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-14 08:15:48.090086
+TKT000331,CUST000154,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-06-29 08:15:48.090086
+TKT000332,CUST000242,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-02-03 08:15:48.090086
+TKT000333,CUST000291,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-31 08:15:48.090086
+TKT000334,CUST000426,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-02-16 08:15:48.090086
+TKT000335,CUST000077,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-02-24 08:15:48.090086
+TKT000336,CUST000110,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-03-25 08:15:48.090086
+TKT000337,CUST000253,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-06-09 08:15:48.090086
+TKT000338,CUST000247,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-02-06 08:15:48.090086
+TKT000339,CUST000093,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-29 08:15:48.090086
+TKT000340,CUST000434,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-06-19 08:15:48.090086
+TKT000341,CUST000136,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-03-23 08:15:48.090086
+TKT000342,CUST000009,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-03-25 08:15:48.090086
+TKT000343,CUST000189,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-05-02 08:15:48.090086
+TKT000344,CUST000067,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-12 08:15:48.090086
+TKT000345,CUST000148,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-04-19 08:15:48.090086
+TKT000346,CUST000466,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-07-20 08:15:48.090086
+TKT000347,CUST000247,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-03-26 08:15:48.090086
+TKT000348,CUST000213,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-05-14 08:15:48.090086
+TKT000349,CUST000009,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-04-07 08:15:48.090086
+TKT000350,CUST000353,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-04-07 08:15:48.090086
+TKT000351,CUST000356,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-02-25 08:15:48.090086
+TKT000352,CUST000363,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-01-27 08:15:48.090086
+TKT000353,CUST000039,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-03-07 08:15:48.090086
+TKT000354,CUST000442,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-07-07 08:15:48.090086
+TKT000355,CUST000268,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-02-27 08:15:48.090086
+TKT000356,CUST000011,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-02-03 08:15:48.090086
+TKT000357,CUST000397,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-05-28 08:15:48.090086
+TKT000358,CUST000061,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-04-02 08:15:48.090086
+TKT000359,CUST000500,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-03-21 08:15:48.090086
+TKT000360,CUST000077,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-07-22 08:15:48.090086
+TKT000361,CUST000478,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-04-09 08:15:48.090086
+TKT000362,CUST000139,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-05-12 08:15:48.090086
+TKT000363,CUST000009,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-02-15 08:15:48.090086
+TKT000364,CUST000175,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-07-11 08:15:48.090086
+TKT000365,CUST000452,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-01-31 08:15:48.090086
+TKT000366,CUST000339,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-01 08:15:48.090086
+TKT000367,CUST000386,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-06-19 08:15:48.090086
+TKT000368,CUST000263,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-04-10 08:15:48.090086
+TKT000369,CUST000143,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-06-16 08:15:48.090086
+TKT000370,CUST000238,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-02-13 08:15:48.090086
+TKT000371,CUST000388,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-10 08:15:48.090086
+TKT000372,CUST000427,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-14 08:15:48.090086
+TKT000373,CUST000335,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-02-22 08:15:48.090086
+TKT000374,CUST000246,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-12 08:15:48.090086
+TKT000375,CUST000402,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-02-18 08:15:48.090086
+TKT000376,CUST000036,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-03-19 08:15:48.090086
+TKT000377,CUST000497,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-07-04 08:15:48.090086
+TKT000378,CUST000415,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-07-03 08:15:48.090086
+TKT000379,CUST000207,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-04 08:15:48.090086
+TKT000380,CUST000128,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-07-22 08:15:48.090086
+TKT000381,CUST000251,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-01 08:15:48.090086
+TKT000382,CUST000072,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-15 08:15:48.090086
+TKT000383,CUST000284,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-04 08:15:48.090086
+TKT000384,CUST000241,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-07-08 08:15:48.090086
+TKT000385,CUST000112,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-05-22 08:15:48.090086
+TKT000386,CUST000071,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-02-03 08:15:48.090086
+TKT000387,CUST000118,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-18 08:15:48.090086
+TKT000388,CUST000334,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-07-09 08:15:48.090086
+TKT000389,CUST000022,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-06-08 08:15:48.090086
+TKT000390,CUST000481,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-07-08 08:15:48.090086
+TKT000391,CUST000284,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-02-13 08:15:48.090086
+TKT000392,CUST000140,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-03-08 08:15:48.090086
+TKT000393,CUST000471,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-06-13 08:15:48.090086
+TKT000394,CUST000284,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-07-02 08:15:48.090086
+TKT000395,CUST000474,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-04-09 08:15:48.090086
+TKT000396,CUST000282,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-05-02 08:15:48.090086
+TKT000397,CUST000272,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-01-29 08:15:48.090086
+TKT000398,CUST000270,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-03-15 08:15:48.090086
+TKT000399,CUST000297,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-03-19 08:15:48.090086
+TKT000400,CUST000041,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-03-04 08:15:48.090086
+TKT000401,CUST000425,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-04-01 08:15:48.090086
+TKT000402,CUST000445,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-03-08 08:15:48.090086
+TKT000403,CUST000248,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-02-20 08:15:48.090086
+TKT000404,CUST000036,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-06-20 08:15:48.090086
+TKT000405,CUST000160,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-05-21 08:15:48.090086
+TKT000406,CUST000278,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-02-16 08:15:48.090086
+TKT000407,CUST000171,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-07-05 08:15:48.090086
+TKT000408,CUST000087,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,RESOLVED,2026-06-02 08:15:48.090086
+TKT000409,CUST000202,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-02-23 08:15:48.090086
+TKT000410,CUST000158,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,CLOSED,2026-05-01 08:15:48.090086
+TKT000411,CUST000284,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-05-22 08:15:48.090086
+TKT000412,CUST000079,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-02-13 08:15:48.090086
+TKT000413,CUST000123,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-02-18 08:15:48.090086
+TKT000414,CUST000402,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-07-05 08:15:48.090086
+TKT000415,CUST000431,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-03-20 08:15:48.090086
+TKT000416,CUST000411,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-02-10 08:15:48.090086
+TKT000417,CUST000100,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-04 08:15:48.090086
+TKT000418,CUST000193,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-03-19 08:15:48.090086
+TKT000419,CUST000427,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,IN_PROGRESS,2026-05-18 08:15:48.090086
+TKT000420,CUST000256,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-08 08:15:48.090086
+TKT000421,CUST000257,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-02-27 08:15:48.090086
+TKT000422,CUST000201,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-05-06 08:15:48.090086
+TKT000423,CUST000318,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-05-28 08:15:48.090086
+TKT000424,CUST000142,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-03-30 08:15:48.090086
+TKT000425,CUST000025,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-03-05 08:15:48.090086
+TKT000426,CUST000124,CARD_DECLINED,Customer's card was declined at Croma. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-04-11 08:15:48.090086
+TKT000427,CUST000142,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-02-26 08:15:48.090086
+TKT000428,CUST000104,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-28 08:15:48.090086
+TKT000429,CUST000062,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-02-09 08:15:48.090086
+TKT000430,CUST000015,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-06-26 08:15:48.090086
+TKT000431,CUST000118,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-07-05 08:15:48.090086
+TKT000432,CUST000312,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,OPEN,2026-07-22 08:15:48.090086
+TKT000433,CUST000190,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-07-23 08:15:48.090086
+TKT000434,CUST000058,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-05-22 08:15:48.090086
+TKT000435,CUST000362,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-06-29 08:15:48.090086
+TKT000436,CUST000308,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-04-18 08:15:48.090086
+TKT000437,CUST000421,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-07-25 08:15:48.090086
+TKT000438,CUST000306,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,IN_PROGRESS,2026-04-11 08:15:48.090086
+TKT000439,CUST000428,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-02-13 08:15:48.090086
+TKT000440,CUST000137,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-02-01 08:15:48.090086
+TKT000441,CUST000016,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-05-11 08:15:48.090086
+TKT000442,CUST000216,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-02-07 08:15:48.090086
+TKT000443,CUST000144,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-04-28 08:15:48.090086
+TKT000444,CUST000162,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-04-02 08:15:48.090086
+TKT000445,CUST000303,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-02-03 08:15:48.090086
+TKT000446,CUST000031,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-07-04 08:15:48.090086
+TKT000447,CUST000429,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-07-10 08:15:48.090086
+TKT000448,CUST000497,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-04 08:15:48.090086
+TKT000449,CUST000451,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-27 08:15:48.090086
+TKT000450,CUST000253,DISPUTE,Customer disputes a duplicate charge from Croma. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-01 08:15:48.090086
+TKT000451,CUST000479,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-04-08 08:15:48.090086
+TKT000452,CUST000012,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-02-20 08:15:48.090086
+TKT000453,CUST000108,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-07-09 08:15:48.090086
+TKT000454,CUST000015,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-03-27 08:15:48.090086
+TKT000455,CUST000235,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-02-28 08:15:48.090086
+TKT000456,CUST000346,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-05-26 08:15:48.090086
+TKT000457,CUST000131,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,CLOSED,2026-04-05 08:15:48.090086
+TKT000458,CUST000192,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-03-27 08:15:48.090086
+TKT000459,CUST000463,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",OPEN,2026-06-05 08:15:48.090086
+TKT000460,CUST000046,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,OPEN,2026-07-22 08:15:48.090086
+TKT000461,CUST000089,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-02-20 08:15:48.090086
+TKT000462,CUST000082,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,RESOLVED,2026-04-23 08:15:48.090086
+TKT000463,CUST000109,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-05-04 08:15:48.090086
+TKT000464,CUST000287,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",IN_PROGRESS,2026-02-24 08:15:48.090086
+TKT000465,CUST000023,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,OPEN,2026-06-14 08:15:48.090086
+TKT000466,CUST000299,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-07-12 08:15:48.090086
+TKT000467,CUST000065,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,CLOSED,2026-07-01 08:15:48.090086
+TKT000468,CUST000168,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-04-12 08:15:48.090086
+TKT000469,CUST000127,DISPUTE,Customer disputes a duplicate charge from Amazon India. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-05-27 08:15:48.090086
+TKT000470,CUST000386,DISPUTE,Customer disputes a duplicate charge from Swiggy. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-05-29 08:15:48.090086
+TKT000471,CUST000380,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,CLOSED,2026-05-01 08:15:48.090086
+TKT000472,CUST000087,CARD_DECLINED,Customer's card was declined at MakeMyTrip. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-03-25 08:15:48.090086
+TKT000473,CUST000179,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-02-27 08:15:48.090086
+TKT000474,CUST000489,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,CLOSED,2026-03-06 08:15:48.090086
+TKT000475,CUST000026,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-08 08:15:48.090086
+TKT000476,CUST000205,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-06-25 08:15:48.090086
+TKT000477,CUST000377,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-25 08:15:48.090086
+TKT000478,CUST000458,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-06-04 08:15:48.090086
+TKT000479,CUST000364,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",RESOLVED,2026-03-07 08:15:48.090086
+TKT000480,CUST000295,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-06-17 08:15:48.090086
+TKT000481,CUST000338,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,IN_PROGRESS,2026-05-14 08:15:48.090086
+TKT000482,CUST000038,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-02-27 08:15:48.090086
+TKT000483,CUST000036,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-04-27 08:15:48.090086
+TKT000484,CUST000408,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-02-11 08:15:48.090086
+TKT000485,CUST000434,CARD_DECLINED,Customer's card was declined at Swiggy. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,OPEN,2026-05-30 08:15:48.090086
+TKT000486,CUST000445,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-07-06 08:15:48.090086
+TKT000487,CUST000106,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,RESOLVED,2026-03-21 08:15:48.090086
+TKT000488,CUST000332,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,RESOLVED,2026-07-14 08:15:48.090086
+TKT000489,CUST000143,CARD_DECLINED,Customer's card was declined at IRCTC. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,IN_PROGRESS,2026-02-21 08:15:48.090086
+TKT000490,CUST000204,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,CLOSED,2026-04-10 08:15:48.090086
+TKT000491,CUST000445,CARD_DECLINED,Customer's card was declined at Amazon India. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-07-24 08:15:48.090086
+TKT000492,CUST000216,CARD_DECLINED,Customer's card was declined at Flipkart. Investigation showed the card had reached its credit limit; advised customer to make a payment or request a limit increase.,RESOLVED,2026-02-11 08:15:48.090086
+TKT000493,CUST000382,GENERAL,General enquiry about interest rates on fixed deposits. Provided current rate card and closed the ticket.,OPEN,2026-07-12 08:15:48.090086
+TKT000494,CUST000171,FRAUD,"Customer reported an unrecognised transaction. Flagged for the fraud team, card hot-listed, and a replacement issued.",CLOSED,2026-03-11 08:15:48.090086
+TKT000495,CUST000181,DISPUTE,Customer disputes a duplicate charge from MakeMyTrip. Raised a chargeback and provisionally credited the amount.,IN_PROGRESS,2026-06-14 08:15:48.090086
+TKT000496,CUST000164,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-02-12 08:15:48.090086
+TKT000497,CUST000292,LOGIN,Customer unable to log in to the mobile app. Reset credentials and confirmed successful login.,IN_PROGRESS,2026-06-29 08:15:48.090086
+TKT000498,CUST000371,CARD_DECLINED,Transaction declined due to the card being temporarily blocked after suspected fraud. Verified customer identity and re-enabled the card.,OPEN,2026-06-28 08:15:48.090086
+TKT000499,CUST000409,LOAN,Customer enquired about a personal loan top-up. Shared eligibility and current interest rates; no action required.,RESOLVED,2026-04-16 08:15:48.090086
+TKT000500,CUST000438,DISPUTE,Customer disputes a duplicate charge from IRCTC. Raised a chargeback and provisionally credited the amount.,OPEN,2026-06-11 08:15:48.090086

@@ -1,0 +1,19 @@
+{
+  "_comment": "MCP client configuration. Point your MCP-capable client (Claude Desktop, Cursor, the MCP Inspector, or the agent in ../mosaic_ai_agent) at this. The 'novabank-external' entry launches our custom server over stdio. The 'databricks-uc-functions' entry is a REMOTE managed server — replace <workspace-host> and use it directly from agent code (see ../mosaic_ai_agent/tools.py).",
+
+  "mcpServers": {
+    "novabank-external": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "_hint": "Set DATABRICKS_HOST/DATABRICKS_TOKEN/DATABRICKS_HTTP_PATH to query real tables; omit to use the local CSV fallback."
+      }
+    }
+  },
+
+  "databricksManagedServers": {
+    "uc_functions": "https://<workspace-host>/api/2.0/mcp/functions/banking_ai/tools",
+    "ai_search": "https://<workspace-host>/api/2.0/mcp/ai-search/banking_ai/core",
+    "genie": "https://<workspace-host>/api/2.0/mcp/genie/<genie_space_id>"
+  }
+}

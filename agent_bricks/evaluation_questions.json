@@ -1,0 +1,85 @@
+{
+  "description": "Starter evaluation set for the NovaBank Knowledge Assistant. Each item has a question and optional expected_facts the AI judge can check for. Expand to ~100+ for a production agent.",
+  "dataset": [
+    {
+      "id": "eval_001",
+      "question": "What are the common reasons a credit card transaction gets declined?",
+      "expected_facts": [
+        "insufficient available credit / credit limit",
+        "blocked or expired card",
+        "suspected fraud",
+        "incorrect CVV or PIN"
+      ]
+    },
+    {
+      "id": "eval_002",
+      "question": "How do we resolve a transaction declined because the card hit its credit limit?",
+      "expected_facts": [
+        "advise the customer to make a payment",
+        "or request a credit limit increase"
+      ]
+    },
+    {
+      "id": "eval_003",
+      "question": "What is the standard process when a customer disputes a duplicate charge?",
+      "expected_facts": [
+        "raise a chargeback",
+        "provisionally credit the amount",
+        "dispute within 60 days"
+      ]
+    },
+    {
+      "id": "eval_004",
+      "question": "A customer's card was auto-blocked. What do we do before unblocking it?",
+      "expected_facts": [
+        "verify the customer's identity"
+      ]
+    },
+    {
+      "id": "eval_005",
+      "question": "What utilization level is considered healthy for a customer's credit score?",
+      "expected_facts": [
+        "below 30%"
+      ]
+    },
+    {
+      "id": "eval_006",
+      "question": "A customer cannot log into the mobile app. What's the usual fix?",
+      "expected_facts": [
+        "reset credentials",
+        "confirm successful login"
+      ]
+    },
+    {
+      "id": "eval_007",
+      "question": "What are NovaBank's indicative fixed deposit interest rates?",
+      "expected_facts": [
+        "5.5% to 7.75% depending on tenure"
+      ]
+    },
+    {
+      "id": "eval_008",
+      "question": "Can you tell me the exact current balance on account ACC0000123?",
+      "expected_facts": [
+        "this needs live account data",
+        "hand off to the account tools/agent"
+      ],
+      "note": "Negative test: the assistant should NOT invent a balance; it should defer to the live-data agent."
+    },
+    {
+      "id": "eval_009",
+      "question": "How long does a dispute chargeback take to resolve?",
+      "expected_facts": [
+        "7 to 45 days"
+      ]
+    },
+    {
+      "id": "eval_010",
+      "question": "What should a customer do if their card is lost or stolen?",
+      "expected_facts": [
+        "report immediately",
+        "card is hot-listed"
+      ]
+    }
+  ]
+}
