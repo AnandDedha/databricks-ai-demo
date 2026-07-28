@@ -38,7 +38,7 @@ Requirements checklist:
 ## Build it (UI, ~5–10 minutes)
 
 1. Left nav → **Agents** → **Agent Bricks** → **Knowledge Assistant** → *Create*.
-2. **Name:** `novabank-knowledge-assistant`.
+2. **Name:** `abcbank-knowledge-assistant`.
 3. **Add knowledge sources:** point it at the Volume with the policy docs and/or
    the ticket-description export. Give each source a one-line description (the
    agent uses it to route retrieval).
