@@ -62,11 +62,3 @@ tool-selection accuracy, whether it chains both tools, latency, and answer clari
 This is exactly what Playground is *for* — quick, side-by-side experimentation
 before you commit to a model in code.
 
----
-
-## What "good" looks like across the board
-- Correct tool chosen for the question.
-- Arguments filled from the conversation (no invented IDs).
-- Figures in the answer match the tool result exactly.
-- Declines end with a practical next step.
-- General questions use the MCP info tool, not the per-customer data tools.
