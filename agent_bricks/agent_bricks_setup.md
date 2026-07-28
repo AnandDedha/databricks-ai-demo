@@ -65,7 +65,7 @@ then join straight back to `banking_ai.core.transactions`.
 ## Build it (UI, ~5–10 minutes)
 
 1. Left nav → **Agent Bricks** → **Information Extraction** → *Build*.
-2. **Name:** `novabank-ticket-extraction`.
+2. **Name:** `ABCbank-ticket-extraction`.
 3. **Connect data:** select `banking_ai.core.support_tickets` and set the request
    column to `issue_description`.
 4. **Define the schema:** in the **Schema Editor**, add the fields from the table
@@ -105,7 +105,7 @@ SELECT
   ticket_id,
   customer_id,
   ai_query(
-    'novabank-ticket-extraction',      -- the deployed IE endpoint
+    'ABCbank-ticket-extraction',      -- the deployed IE endpoint
     issue_description
   ) AS extracted
 FROM banking_ai.core.support_tickets;
