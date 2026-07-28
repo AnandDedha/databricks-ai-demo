@@ -89,7 +89,7 @@ def main() -> None:
         ),
     )
 
-    with mlflow.start_run(run_name="novabank_agent_eval"):
+    with mlflow.start_run(run_name="ABCbank_agent_eval"):
         results = mlflow.genai.evaluate(
             data=EVAL_DATA,
             predict_fn=predict_fn,
