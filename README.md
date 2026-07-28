@@ -14,7 +14,7 @@ This repo is the companion code for the YouTube tutorial. Everything is **100% s
 
 ## The banking scenario
 
-We run a fictional retail bank, **NovaBank**. The agent helps customers and support staff answer questions like:
+We run a fictional retail bank, **ABCBank**. The agent helps customers and support staff answer questions like:
 
 > *"Why was my credit card transaction declined, and what is my available credit?"*
 
