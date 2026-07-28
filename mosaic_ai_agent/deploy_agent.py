@@ -70,7 +70,7 @@ def main() -> None:
 
     mlflow.set_registry_uri("databricks-uc")  # register into Unity Catalog
 
-    with mlflow.start_run(run_name="novabank_support_agent"):
+    with mlflow.start_run(run_name="ABCbank_support_agent"):
         mlflow.set_tags(CONFIG.tags)
         logged = mlflow.pyfunc.log_model(
             name="agent",
