@@ -1,81 +1,145 @@
-# Agent Bricks — Knowledge Assistant (low-code)
+# Agent Bricks — Information Extraction (low-code)
 
-Agent Bricks is Databricks' governed platform for building agents from
-**predefined patterns** without writing the agent loop yourself. As of DAIS 2026
-it's a full agent platform (Choice / Context / Control); the pattern we use here,
-**Knowledge Assistant**, went GA in January 2026.
+Agent Bricks is Databricks' governed surface for building agents from **predefined
+templates** without writing the agent loop yourself. The UI has evolved: it's now the
+umbrella for Databricks' AI capabilities, and the templates you'll see today are:
 
-## Which pattern, and why
+| Template | What it does |
+|---|---|
+| **Supervisor** | Orchestrates multiple sub-agents/tools and Genie spaces behind one interface (GA). |
+| **Information Extraction** ✅ | Turns a large volume of unstructured text/PDFs/images into a **structured table** of fields you define. **We use this.** |
+| **Genie** | Natural-language analytics over governed tables via a Genie space. |
+| **Text Classification** | Sorts documents into predefined categories at scale. |
+| **Custom** | Bring any model/framework (Custom LLM / Custom Agents) with full lifecycle support. |
 
-| Pattern | What it does | Fit for our bank |
-|---|---|---|
-| **Knowledge Assistant** ✅ | Answers questions grounded in your documents/knowledge, with citations, using *Instructed Retrieval* (better than plain RAG). | Perfect for a support-history + policy assistant. **We use this.** |
-| Information Extraction | Pulls structured fields from unstructured docs. | Good for parsing scanned KYC forms — not our demo. |
-| Multi-Agent Supervisor | Orchestrates several sub-agents/tools. | The scale-up once you outgrow one assistant. |
-| Custom LLM | Fine-tune / prompt-optimize a task-specific model. | For classification/labelling tasks. |
+## Which template, and why
 
-We pick **Knowledge Assistant** because our goal is a support assistant that
-answers "how do we handle X?" from real ticket history + policy notes, and we
-want it live in minutes with governance, evaluation, and monitoring included.
+We pick **Information Extraction** because our support-ticket data is the classic IE
+use case: 500 tickets of **free-text** `issue_description` that we want to turn into a
+clean, queryable table — issue category, product, urgency, referenced IDs, requested
+action. That's exactly what this template is built for: transforming unlabelled text
+into structured fields per document, evaluated and deployed as a serverless endpoint.
 
-## Input data requirements
+- **Genie** would be the pick for "answer analytics questions over the tables."
+- **Supervisor** is the scale-up once you have several agents/Genie spaces to route
+  between.
+- **Text Classification** fits if you only need a single category label per ticket.
+- **Custom** is for when no template fits and you want full control (that's what the
+  `mosaic_ai_agent/` code path demonstrates instead).
 
-Knowledge Assistant grounds answers in **knowledge sources**. We give it two:
+## Input data
 
-1. **Support ticket history** — `banking_ai.core.support_tickets`
-   (`issue_description` is the useful text). Create a small text/markdown export
-   or a Delta-backed source; the ticket descriptions become searchable knowledge.
-2. **Policy notes** — a handful of short markdown docs (decline reasons, dispute
-   process, card-block policy). You can reuse the text in `mcp/tools.py`
-   (`EXTERNAL_BANKING_INFO`) — drop each entry into a `.md` file in a Unity
-   Catalog **Volume**, e.g. `banking_ai.core.knowledge/policies/`.
+Information Extraction reads a **column of text** (must be `string`). We use the
+support tickets:
+
+- **Source:** `banking_ai.core.support_tickets`
+- **Request column (text to extract from):** `issue_description`
+- (Optional) **Ground-truth column:** a hand-labelled `expected_json` column on a
+  small sample, used for evaluation.
+
+If your tickets were PDFs/images instead of text, you'd first run
+`ai_parse_document()` to get the text column — not needed here, our descriptions are
+already text.
 
 Requirements checklist:
-- A Unity Catalog **Volume** or Delta table holding the source text.
-- `READ VOLUME` / `SELECT` granted to you and (later) the agent principal.
-- Serverless compute enabled.
+- **Mosaic AI Agent Bricks** enabled for the workspace (Beta preview toggle).
+- **Serverless compute** enabled.
+- **Unity Catalog** enabled, with access to foundation models via the `system.ai`
+  schema.
+- A **serverless budget policy** with a non-zero budget.
+- `SELECT` on `banking_ai.core.support_tickets`.
+
+## The extraction schema (the heart of it)
+
+Define the fields you want pulled from each ticket. Each field = **name + type +
+description** (the description is what the model uses, so write it well):
+
+| Field | Type | Description (what to tell the agent) |
+|---|---|---|
+| `issue_category` | string | The main issue: one of declined_transaction, dispute, card_lost, statement_query, limit_increase, other. |
+| `product` | string | Product referenced: credit_card, savings_account, current_account, or fixed_deposit. |
+| `mentioned_transaction_id` | string | Any transaction ID referenced (format TXN########), else null. |
+| `mentioned_card_id` | string | Any card ID referenced (format CARD######), else null. |
+| `customer_sentiment` | string | frustrated, neutral, or satisfied. |
+| `urgency` | string | low, medium, or high, based on tone and issue. |
+| `requested_action` | string | Short phrase for what the customer wants done. |
+| `contains_pii` | boolean | true if the text contains PII (full card number, ID, etc.). |
+
+This is also why IE is a nice demo for our flagship: a ticket that mentions
+**TXN00000010** gets that ID extracted into `mentioned_transaction_id`, which you can
+then join straight back to `banking_ai.core.transactions`.
 
 ## Build it (UI, ~5–10 minutes)
 
-1. Left nav → **Agents** → **Agent Bricks** → **Knowledge Assistant** → *Create*.
-2. **Name:** `abcbank-knowledge-assistant`.
-3. **Add knowledge sources:** point it at the Volume with the policy docs and/or
-   the ticket-description export. Give each source a one-line description (the
-   agent uses it to route retrieval).
-4. **Instructions:** paste `sample_instructions.md`.
-5. Click **Create**. Agent Bricks builds and indexes automatically — no chunking
-   or embedding code to write.
+1. Left nav → **Agent Bricks** → **Information Extraction** → *Build*.
+2. **Name:** `novabank-ticket-extraction`.
+3. **Connect data:** select `banking_ai.core.support_tickets` and set the request
+   column to `issue_description`.
+4. **Define the schema:** in the **Schema Editor**, add the fields from the table
+   above (Add new field → name, type, description → Confirm). Sample responses render
+   on the left from your real tickets as you edit.
+5. **Guidelines & Instructions** (optional but recommended): add global rules, e.g.
+   *"Return null for any field not present. Never invent an ID. Normalise product
+   names to the four allowed values."*
+6. Iterate: review the auto-generated sample responses, refine field descriptions
+   until they look right, click **Save and update**.
 
 ## Configuration you actually touch
-- **Instructions** (tone, scope, refusal behaviour) — see `sample_instructions.md`.
-- **Knowledge source descriptions** — short, accurate, one per source.
-- Optionally, model choice and guardrails. Almost everything else is managed.
+- **Schema fields** — names, types, and especially **descriptions**.
+- **Guidelines/Instructions** — edge-case handling, allowed value normalisation,
+  null behaviour.
+- Everything else (chunking, model choice, optimisation) is managed.
 
-## Evaluation
-1. Open the assistant → **Evaluate**.
-2. Upload `evaluation_questions.json` (question + optional expected facts).
-3. Agent Bricks runs **AI-as-a-Judge** scoring and reports quality using the
-   **CLEARS** rubric (Correctness, Latency, Execution, Adherence, Relevance,
-   Safety). Review low-scoring rows, then improve instructions or add a missing
-   knowledge source and re-run. Aim for ≥ ~100 eval questions for a real agent;
-   the JSON here is a starter set.
+## Optimize & evaluate
+- Click **Optimize** — Agent Bricks runs evaluation and optimisation in the
+  background (built on **MLflow + Agent Evaluation**) to improve quality and cost.
+- For a measured score, provide a small **ground-truth** sample (a column of expected
+  JSON on ~20–50 hand-checked tickets). Agent Bricks compares extractions against it
+  and reports the cost-quality tradeoff so you can choose the right point.
+- `evaluation_questions.json` in this folder is written for a Q&A-style agent; for IE
+  you instead supply labelled examples — see the note at the end of this file.
 
 ## Deployment
-- Click **Deploy**. Agent Bricks stands up a **Model Serving** endpoint and a
-  review/chat app automatically. No `deploy_agent.py` needed for this path — that
-  script exists only for the *code-based* Mosaic AI agent.
-- Share the endpoint or the chat app URL with reviewers.
+- Click **Use** → deploy as a **serverless endpoint** in one click. No
+  `deploy_agent.py` needed on this path (that script is only for the code-based
+  Mosaic AI agent).
+- Run it **at scale** from SQL with `ai_query()`:
+
+```sql
+-- Extract structured fields for every ticket into a new table
+CREATE OR REPLACE TABLE banking_ai.core.support_tickets_structured AS
+SELECT
+  ticket_id,
+  customer_id,
+  ai_query(
+    'novabank-ticket-extraction',      -- the deployed IE endpoint
+    issue_description
+  ) AS extracted
+FROM banking_ai.core.support_tickets;
+```
+
+You now have a governed, structured table you can join back to customers,
+transactions, and cards.
 
 ## Monitoring
-- **Traces & monitoring** are built in: every request's retrieval + generation is
-  logged and governed in the lakehouse, and integrates with Lakewatch for
-  PII/quality alerts. Watch latency, thumbs-up/down, and unanswered questions,
-  then feed gaps back into the knowledge sources.
+- **Traces & monitoring** are built in — every extraction request is logged and
+  governed in the lakehouse. Watch latency, cost per document, and low-confidence
+  extractions, then tighten field descriptions or guidelines and re-optimise.
 
-## When Agent Bricks beats Playground or custom code
-- You want a **grounded, cited** assistant **fast**, with eval + deploy + monitor
-  included, and you don't need bespoke control flow.
-- Choose **AI Playground** instead for throwaway prompt/model/tool experiments.
-- Choose the **Mosaic AI Agent Framework** (code) instead when you need custom
-  multi-step logic, precise tool orchestration, or to package the agent as your
-  own Python model. See `docs/comparison.md`.
+## When Information Extraction beats Playground or custom code
+- You have a **pile of unstructured text** and want a **structured table** out of it,
+  fast, with evaluation + one-click serving + governance included, and no parsing or
+  RAG code to maintain.
+- Choose **AI Playground** instead for throwaway prompt/model/tool experiments, or to
+  prototype the *conversational* support agent (the flagship "why was my transaction
+  declined" flow — that's tool-calling, not extraction).
+- Choose the **Mosaic AI Agent Framework** (code) when you need custom multi-step
+  logic or to package the agent as your own model. See `docs/comparison.md`.
+
+---
+### Heads-up: sibling files still reference the old pattern
+`sample_instructions.md` and `evaluation_questions.json` in this folder were written
+for the conversational **Knowledge Assistant** flow. They don't map onto an
+Information Extraction agent (which needs a field schema + labelled examples, not Q&A
+pairs). If you're recording the IE version, ask and I'll regenerate both to match —
+an `extraction_schema.json` plus a small labelled ground-truth sample.
