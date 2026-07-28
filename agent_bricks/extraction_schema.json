@@ -1,0 +1,58 @@
+{
+  "agent_name": "novabank-ticket-extraction",
+  "description": "Information Extraction agent: turns free-text NovaBank support tickets into a structured, queryable table (one row per ticket).",
+  "source": {
+    "table": "banking_ai.core.support_tickets",
+    "request_column": "issue_description",
+    "note": "issue_description is plain string text (resolution-style notes). If your source were PDFs/images in a Unity Catalog Volume, run ai_parse_document() first to produce this text column."
+  },
+  "global_instructions": [
+    "Extract only what the text supports. If a field is not stated or implied, return null (or the 'not_applicable'/'none'/'unknown' value where the schema defines one).",
+    "Never invent merchants, amounts, or IDs.",
+    "Normalise every value to the allowed set for its field; do not return free text for enum fields.",
+    "Set customer_sentiment to 'neutral' unless the text contains explicit emotional language (e.g. 'furious', 'very happy').",
+    "follow_up_required is true only when the note implies further customer or bank action is still pending (e.g. a chargeback under review, or the customer must make a payment)."
+  ],
+  "fields": [
+    {
+      "name": "issue_category",
+      "type": "string",
+      "allowed_values": ["declined_transaction", "fraud", "login_issue", "dispute", "loan_enquiry", "general_enquiry"],
+      "description": "The primary reason the customer contacted support, inferred from the description."
+    },
+    {
+      "name": "product",
+      "type": "string",
+      "allowed_values": ["credit_card", "mobile_banking", "personal_loan", "fixed_deposit", "unknown"],
+      "description": "The banking product the ticket concerns. Card declines, fraud, and disputes are credit_card; login issues are mobile_banking."
+    },
+    {
+      "name": "merchant",
+      "type": "string",
+      "description": "The merchant named in the ticket (e.g. 'Amazon India', 'Swiggy', 'IRCTC', 'Croma', 'MakeMyTrip', 'Flipkart'). Return null if no merchant is mentioned."
+    },
+    {
+      "name": "root_cause",
+      "type": "string",
+      "allowed_values": ["credit_limit_reached", "temporary_block_fraud", "unrecognised_transaction", "duplicate_charge", "login_failure", "not_applicable"],
+      "description": "The underlying cause described. 'credit_limit_reached' is the flagship case (mirrors the INSUFFICIENT_CREDIT_LIMIT decline on transaction TXN00000010)."
+    },
+    {
+      "name": "resolution_action",
+      "type": "string",
+      "allowed_values": ["payment_advised", "card_reenabled", "replacement_issued", "chargeback_raised", "credentials_reset", "information_provided", "none"],
+      "description": "The action support took or advised, as stated in the note."
+    },
+    {
+      "name": "follow_up_required",
+      "type": "boolean",
+      "description": "Whether further action is still pending after this note. See global instructions."
+    },
+    {
+      "name": "customer_sentiment",
+      "type": "string",
+      "allowed_values": ["frustrated", "neutral", "satisfied"],
+      "description": "Customer emotional tone. Default to 'neutral' unless the text is explicitly emotional."
+    }
+  ]
+}
