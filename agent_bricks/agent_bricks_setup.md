@@ -4,28 +4,21 @@ Agent Bricks is Databricks' governed surface for building agents from **predefin
 templates** without writing the agent loop yourself. The UI has evolved: it's now the
 umbrella for Databricks' AI capabilities, and the templates you'll see today are:
 
-| Template | What it does |
-|---|---|
-| **Supervisor** | Orchestrates multiple sub-agents/tools and Genie spaces behind one interface (GA). |
+| Template | What it does | Usacases |
+|---|---|---|
+| **Supervisor** | Orchestrates multiple sub-agents/tools and Genie spaces behind one interface (GA). |  **Supervisor** is the scale-up once you have several agents/Genie spaces to route between. |
 | **Information Extraction** ✅ | Turns a large volume of unstructured text/PDFs/images into a **structured table** of fields you define. **We use this.** |
-| **Genie** | Natural-language analytics over governed tables via a Genie space. |
-| **Text Classification** | Sorts documents into predefined categories at scale. |
-| **Custom** | Bring any model/framework (Custom LLM / Custom Agents) with full lifecycle support. |
+| **Genie** | Natural-language analytics over governed tables via a Genie space. |  **Genie** would be the pick for "answer analytics questions over the tables. |
+| **Text Classification** | Sorts documents into predefined categories at scale. | **Text Classification** fits if you only need a single category label per ticket. |
+| **Custom** | Bring any model/framework (Custom LLM / Custom Agents) with full lifecycle support. | **Custom** is for when no template fits and you want full control (that's what the `mosaic_ai_agent/` code path demonstrates instead). |
 
-## Which template, and why
+## Use case 1 — Extract from PDFs in a Volume
 
-We pick **Information Extraction** because our support-ticket data is the classic IE
-use case: 500 tickets of **free-text** `issue_description` that we want to turn into a
-clean, queryable table — issue category, product, urgency, referenced IDs, requested
-action. That's exactly what this template is built for: transforming unlabelled text
-into structured fields per document, evaluated and deployed as a serverless endpoint.
+Drop your PDFs into a Unity Catalog Volume and let the agent read them directly. You define the schema — the fields you want back — and Information Extraction pulls those fields from every document, no OCR or parsing code to write. Ideal when the source is scanned or born-digital PDFs (KYC forms, statements, contracts): point the agent at the Volume, define the schema, and get one structured row per document.
 
-- **Genie** would be the pick for "answer analytics questions over the tables."
-- **Supervisor** is the scale-up once you have several agents/Genie spaces to route
-  between.
-- **Text Classification** fits if you only need a single category label per ticket.
-- **Custom** is for when no template fits and you want full control (that's what the
-  `mosaic_ai_agent/` code path demonstrates instead).
+## Use case 2 — Structure free-text support tickets
+
+Turn the free-text issue_description on our support tickets into a clean, queryable table — issue category, product, urgency, referenced IDs, and requested action. This is exactly what the template is built for: transforming unlabelled text into structured fields, one row per document, then evaluated and deployed as a serverless endpoint you can call at scale with ai_query().
 
 ## Input data
 
@@ -126,20 +119,3 @@ transactions, and cards.
   governed in the lakehouse. Watch latency, cost per document, and low-confidence
   extractions, then tighten field descriptions or guidelines and re-optimise.
 
-## When Information Extraction beats Playground or custom code
-- You have a **pile of unstructured text** and want a **structured table** out of it,
-  fast, with evaluation + one-click serving + governance included, and no parsing or
-  RAG code to maintain.
-- Choose **AI Playground** instead for throwaway prompt/model/tool experiments, or to
-  prototype the *conversational* support agent (the flagship "why was my transaction
-  declined" flow — that's tool-calling, not extraction).
-- Choose the **Mosaic AI Agent Framework** (code) when you need custom multi-step
-  logic or to package the agent as your own model. See `docs/comparison.md`.
-
----
-### Heads-up: sibling files still reference the old pattern
-`sample_instructions.md` and `evaluation_questions.json` in this folder were written
-for the conversational **Knowledge Assistant** flow. They don't map onto an
-Information Extraction agent (which needs a field schema + labelled examples, not Q&A
-pairs). If you're recording the IE version, ask and I'll regenerate both to match —
-an `extraction_schema.json` plus a small labelled ground-truth sample.
