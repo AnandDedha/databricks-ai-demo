@@ -39,7 +39,7 @@ from tools import ToolRegistry
 mlflow.openai.autolog()
 
 
-class NovaBankSupportAgent(ResponsesAgent):
+class ABCBankSupportAgent(ResponsesAgent):
     """A tool-calling support agent."""
 
     def __init__(self) -> None:
@@ -154,7 +154,7 @@ class NovaBankSupportAgent(ResponsesAgent):
             yield ResponsesAgentStreamEvent(type="response.output_item.done", item=item)
 
 
-AGENT = NovaBankSupportAgent()
+AGENT = ABCBankSupportAgent()
 mlflow.models.set_model(AGENT)
 
 
