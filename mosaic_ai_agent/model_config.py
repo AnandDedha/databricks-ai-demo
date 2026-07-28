@@ -21,7 +21,7 @@ class AgentConfig:
     tools_schema: str = "tools"        # UC functions live here
 
     # Where the registered agent model will live in Unity Catalog.
-    registered_model_name: str = "banking_ai.agents.novabank_support_agent"
+    registered_model_name: str = "banking_ai.agents.ABCbank_support_agent"
 
     # --- LLM endpoint (must support tool calling) ---
     # Check Serving -> Foundation Models for what's available in your workspace.
@@ -42,7 +42,7 @@ class AgentConfig:
     # --- Agent behaviour ---
     max_tool_iterations: int = 5   # safety cap on the tool-calling loop
     system_prompt: str = (
-        "You are NovaBank's customer support agent. You answer questions about "
+        "You are ABCBank's customer support agent. You answer questions about "
         "accounts, credit cards, transactions, and support history by calling the "
         "provided tools. Rules:\n"
         "1. Never guess balances, limits, utilization, available credit, or decline "
