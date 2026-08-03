@@ -93,12 +93,13 @@ def main() -> None:
     from databricks import agents
     from mlflow import MlflowClient
 
-    version = MlflowClient().get_latest_versions(
-        CONFIG.registered_model_name, stages=["None"]
-    )[0].version
+    # For Unity Catalog models, use search_model_versions instead of get_latest_versions
+    client = MlflowClient()
+    model_versions = client.search_model_versions(f"name='{CONFIG.registered_model_name}'")
+    version = max([int(v.version) for v in model_versions])
 
     print(f"Deploying {CONFIG.registered_model_name} v{version} ...")
-    deployment = agents.deploy(CONFIG.registered_model_name, int(version))
+    deployment = agents.deploy(CONFIG.registered_model_name, int(version), scale_to_zero=False)
     print("Endpoint:", getattr(deployment, "endpoint_name", "<pending>"))
     print("Review app:", getattr(deployment, "review_app_url", "<pending>"))
     print("Deployment started — it may take several minutes to become READY.")
