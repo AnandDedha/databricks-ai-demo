@@ -46,6 +46,11 @@ print("UC functions MCP path:", CONFIG.uc_functions_mcp_path())
 # COMMAND ----------
 
 import mlflow
+import asyncio
+import nest_asyncio
+
+# Allow nested event loops in Databricks notebooks
+nest_asyncio.apply()
 mlflow.openai.autolog()   # captures the tool-calling trace
 
 from agent import AGENT
