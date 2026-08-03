@@ -32,6 +32,10 @@ from mlflow.types.responses import (
     ResponsesAgentStreamEvent,
 )
 
+# Apply nest_asyncio to allow asyncio.run() in notebook and MLflow validation contexts
+import nest_asyncio
+nest_asyncio.apply()
+
 from model_config import CONFIG
 from tools import ToolRegistry
 
