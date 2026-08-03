@@ -38,7 +38,7 @@ evaluate_agent.main()
 # MAGIC %md
 # MAGIC ## Step 2 — Deploy
 # MAGIC Logs the agent (code-based), attaches resources (LLM + UC functions),
-# MAGIC registers to `banking_ai.agents.novabank_support_agent`, and deploys.
+# MAGIC registers to `banking_ai.agents.abcbank_support_agent`, and deploys.
 
 # COMMAND ----------
 
@@ -60,7 +60,7 @@ deploy_agent.main()
 
 from mlflow.deployments import get_deploy_client
 
-ENDPOINT_NAME = "agents_banking_ai-agents-novabank_support_agent"  # adjust if printed differently
+ENDPOINT_NAME = "agents_banking_ai-agents-abcbank_support_agent"  # adjust if printed differently
 client = get_deploy_client("databricks")
 resp = client.predict(
     endpoint=ENDPOINT_NAME,
