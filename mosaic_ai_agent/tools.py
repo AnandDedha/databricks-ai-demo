@@ -22,6 +22,55 @@ from typing import Any, Callable
 
 from model_config import CONFIG
 
+# WORKAROUND: MCP server doesn't expose UC function parameters
+# Manually define them based on the UC function SQL definitions
+PARAMETER_SCHEMAS = {
+    "banking_ai__tools__check_transaction_status": {
+        "type": "object",
+        "properties": {
+            "input_transaction_id": {
+                "type": "string",
+                "description": "Transaction identifier in the form TXN00000001."
+            }
+        },
+        "required": ["input_transaction_id"]
+    },
+    "banking_ai__tools__calculate_credit_utilization": {
+        "type": "object",
+        "properties": {
+            "input_customer_id": {
+                "type": "string",
+                "description": "Customer identifier in the form CUST000001."
+            }
+        },
+        "required": ["input_customer_id"]
+    },
+    "banking_ai__tools__get_customer_balance": {
+        "type": "object",
+        "properties": {
+            "input_customer_id": {
+                "type": "string",
+                "description": "Customer identifier in the form CUST000001."
+            }
+        },
+        "required": ["input_customer_id"]
+    },
+    "banking_ai__tools__get_recent_transactions": {
+        "type": "object",
+        "properties": {
+            "input_card_id": {
+                "type": "string",
+                "description": "Credit card identifier in the form CARD000001."
+            },
+            "input_limit": {
+                "type": "integer",
+                "description": "Number of recent transactions to return (default 10)."
+            }
+        },
+        "required": ["input_card_id"]
+    }
+}
+
 
 def _make_mcp_client(server_url: str):
     """Create a DatabricksMCPClient for a given server URL."""
@@ -36,7 +85,7 @@ def _mcp_tool_to_openai(tool) -> dict:
     """Convert one MCP tool definition to an OpenAI `tools` entry."""
     # MCP tools expose name, description, and an inputSchema (JSON schema).
     schema = getattr(tool, "inputSchema", None) or {"type": "object", "properties": {}}
-    return {
+    result = {
         "type": "function",
         "function": {
             "name": tool.name,
@@ -44,6 +93,12 @@ def _mcp_tool_to_openai(tool) -> dict:
             "parameters": schema,
         },
     }
+    
+    # WORKAROUND: Patch in the parameter schemas if MCP didn't provide them
+    if not schema.get("properties") and tool.name in PARAMETER_SCHEMAS:
+        result["function"]["parameters"] = PARAMETER_SCHEMAS[tool.name]
+    
+    return result
 
 
 class ToolRegistry:
