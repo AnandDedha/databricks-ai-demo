@@ -25,7 +25,8 @@ class AgentConfig:
 
     # --- LLM endpoint (must support tool calling) ---
     # Check Serving -> Foundation Models for what's available in your workspace.
-    llm_endpoint: str = "databricks-claude-3-7-sonnet"
+    # llm_endpoint: str = "databricks-claude-3-7-sonnet"
+    llm_endpoint: str = "databricks-meta-llama-3-3-70b-instruct"
 
     # --- Managed MCP server for our UC functions ---
     # Full URL is built at runtime from the workspace host:
