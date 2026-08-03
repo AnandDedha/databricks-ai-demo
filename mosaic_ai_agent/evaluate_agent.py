@@ -22,6 +22,10 @@ from __future__ import annotations
 
 import mlflow
 
+# Apply nest_asyncio before importing agent to prevent event loop conflicts
+import nest_asyncio
+nest_asyncio.apply()
+
 from agent import AGENT
 from model_config import CONFIG
 
