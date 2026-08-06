@@ -29,7 +29,7 @@ To answer that, an agent needs to reason over six datasets:
 
 ## Architecture at a glance
 
-See docs/Architecture Diagram.PNG
+See [`docs/Architecture Diagram.PNG`]
 
 ---
 
@@ -64,10 +64,10 @@ databricks-banking-ai-agents/
 ├── unity_catalog_functions/  # SQL: the 4 agent tools
 ├── mcp/                       # Custom MCP server (tickets + external info)
 ├── ai_playground/            # Approach 1 — prompts, tool config, test cases
-├── agent_bricks/             # Approach 2 — Knowledge Assistant setup + eval
+├── agent_bricks/             # Approach 2 — Information Extraction
 ├── mosaic_ai_agent/          # Approach 3 — ResponsesAgent code + deploy + eval
 ├── notebooks/                # Run these top-to-bottom
-└── docs/                     # Architecture, YouTube script, guides, comparison
+└── docs/                     # Architecture,  comparison
 ```
 
 ## Prerequisites
