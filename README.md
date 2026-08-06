@@ -7,7 +7,7 @@ This repo is the companion code for the YouTube tutorial. Everything is **100% s
 | # | Approach | You build with | Best for |
 |---|----------|----------------|----------|
 | 1 | **AI Playground** | UI + tool calling (UC functions + MCP) | Prompt testing, model comparison, quick tool experiments |
-| 2 | **Agent Bricks** | Low-code patterns (Knowledge Assistant) | Fast, governed agents from predefined patterns |
+| 2 | **Agent Bricks** | Low-code patterns (Information Extraction) | Fast, governed agents from predefined patterns |
 | 3 | **Mosaic AI Agent Framework** | Python + MLflow `ResponsesAgent` | Fully customizable, code-based production agents |
 
 ---
@@ -29,24 +29,7 @@ To answer that, an agent needs to reason over six datasets:
 
 ## Architecture at a glance
 
-```
-Customer question
-      │
-      ▼
-┌───────────────────────────────────────────────┐
-│  Agent (Playground / Agent Bricks / Framework) │
-│      reasons, decides which tool to call       │
-└───────────────────────────────────────────────┘
-      │                    │                     │
-      ▼                    ▼                     ▼
- UC Functions       Managed MCP            Custom MCP server
- (governed SQL)     (/api/2.0/mcp/...)     (tickets + external info)
-      │                    │                     │
-      ▼                    ▼                     ▼
-        Delta tables in Unity Catalog  (banking_ai.core.*)
-```
-
-See [`docs/architecture.md`](docs/architecture.md) for the full walkthrough.
+See 
 
 ---
 
