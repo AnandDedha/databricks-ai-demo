@@ -29,7 +29,7 @@ To answer that, an agent needs to reason over six datasets:
 
 ## Architecture at a glance
 
-See 
+See docs/Architecture Diagram.PNG
 
 ---
 
